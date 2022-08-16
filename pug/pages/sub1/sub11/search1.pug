@@ -1,0 +1,11 @@
+extends ../../../templates/template.pug
+
+block variables
+  - var title="Search Teste"
+  - var directory="../"
+
+block content
+  include ../../../atoms/search
+
+block scripts 
+  script(src="../../assets/js/index.js")  
