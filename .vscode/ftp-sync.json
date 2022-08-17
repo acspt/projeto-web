@@ -1,8 +1,8 @@
 {
     "remotePath": "/htdocs/projeto-web/",
     "host": "ftpupload.net",
-    "username": "epiz_30043903",
-    "password": "5FqfGmoJ3PGV3wQ",
+    "username": "xxxxxx",
+    "password": "xxxxx",
     "port": 21,
     "secure": false,
     "protocol": "ftp",
