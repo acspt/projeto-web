@@ -5,7 +5,7 @@
 
 **Tarefas extra** para a extenão n.1: 
 1. Copiar a pasta wscats.eno-2.3.53 (Extras) para \<HOME DIRECTORY\>\\.vscode\\extensions
-2. Reiniciar o Visual Tudio Code
+2. Reiniciar o Visual Studio Code
 
   ## Links uteis:
 
