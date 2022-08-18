@@ -12,4 +12,4 @@
 Bootstrap + PUG - [https://github.com/pug-bootstrap/PUG-Bootstrap]()
 
 # Markdown - md
-Open source online Markdown editor - [https://pandao.github.io/editor.md/en.html] ()
+Open source online Markdown editor - [https://pandao.github.io/editor.md/en.html]()
