@@ -1,0 +1,12 @@
+mixin input-number(id, text, maxlength=0, min=0, max=0)
+    label(for=id)=text
+    if max > 0
+        if maxlength > 0
+            input(type="number", id=id,name=id, min=min, max=max, maxlength=maxlength)
+        else 
+            input(type="number", id=id,name=id, min=min, max=max)
+    else 
+        if maxlength > 0
+            input(type="number", id=id,name=id, maxlength=maxlength)
+        else 
+            input(type="number", id=id,name=id)

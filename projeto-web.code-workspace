@@ -1,7 +1,16 @@
 {
-    "folders": [
-        {
-            "path": "modelo"
-        }
-    ]
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"compile-hero.pug-output-directory": "public",
+		"compile-hero.pug-input-directory": "pug\\pages",
+		"compile-hero.less-output-directory": "public\\assets\\css",
+		"compile-hero.less-input-directory": "less",
+		"compile-hero.disable-compile-files-on-did-save-code": false,
+		"compile-hero.watch": ["**/pages/**", "less/**"]
+	  
+	},
 }

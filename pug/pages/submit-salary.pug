@@ -1,0 +1,11 @@
+extends ../templates/template.pug
+
+block variables
+  - var title="Submit salary"
+
+
+block content
+  include ../molecules/form-submit-salary
+
+block scripts 
+  script(src="assets/js/submit-salary.js")
