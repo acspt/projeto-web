@@ -1,12 +1,12 @@
 {
-    "remotePath": "/htdocs/projeto-web/",
+    "remotePath": "/htdocs/projetoweb-2023",
     "host": "ftpupload.net",
-    "username": "xxxxxx",
-    "password": "xxxxx",
+    "username": "epiz_30043903",
+    "password": "5FqfGmoJ3PGV3wQ",
     "port": 21,
     "secure": false,
     "protocol": "ftp",
-    "uploadOnSave": false,
+    "uploadOnSave": true,
     "passive": false,
     "debug": false,
     "privateKeyPath": null,
@@ -22,6 +22,6 @@
         "extensionsToInclude": [
             ""
         ],
-        "path": ""
+        "path": "/public"
     }
 }
