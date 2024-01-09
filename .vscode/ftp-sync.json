@@ -16,12 +16,14 @@
     "ignore": [
         "\\.vscode",
         "\\.git",
+        "\\pug",
+        "\\Extras",
         "\\.DS_Store"
     ],
     "generatedFiles": {
         "extensionsToInclude": [
             ""
         ],
-        "path": "/public"
+        "path": "public"
     }
 }

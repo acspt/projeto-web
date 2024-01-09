@@ -1,0 +1,31 @@
+
+- 
+  var listproducts = [ 
+    { id: 1, name: 'Product 1', imageUrl: '/images/product1.jpg', price: 29.99 },
+    { id: 2, name: 'Product 2', imageUrl: '/images/product1.jpg', price: 29.99 }
+  ]
+- var title= "My Online Store 2"
+doctype html
+html(lang="en")
+    head
+        title=title
+        link(rel="stylesheet", href="styles.css")
+    body
+        header
+            .logo Logo
+        nav
+            ul
+                li: a(href="/services") Services
+                li: a(href="/products") Products
+                li: a(href="/about") About
+        main
+            .banner My online store
+            .products
+                each product in listproducts
+                    .product
+                        img(src=product.imageUrl, alt=product.name)
+                        h3= product.name
+                        p Price: $#{product.price}
+                        button Add to Cart
+        footer
+            // Shopping cart component will go here
