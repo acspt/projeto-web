@@ -1,0 +1,21 @@
+extends ../templates/template.pug
+
+block variables
+    - var title= "My Online Store 2"
+
+
+block content
+
+    - 
+     var listproducts = [ 
+     { id: 1, name: 'Product 1', imageUrl: '/images/product1.jpg', price: 29.99 },
+     { id: 2, name: 'Product 2', imageUrl: '/images/product1.jpg', price: 29.99 }
+     ]
+    .banner My online store
+        .products
+            each product in listproducts
+                .product
+                    img(src=product.imageUrl, alt=product.name)
+                    h3= product.name
+                    p Price: $#{product.price}
+                    button Add to Cart
